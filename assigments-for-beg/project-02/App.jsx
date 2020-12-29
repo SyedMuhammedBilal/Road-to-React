@@ -34,9 +34,9 @@ class MyApp extends React.Component {
     render() {
         return (
             <div>
-                <button onClick={Increment}> + </button>
-                <button onClick={Decrement}> - </button>
-                <button onClick={Reset}> RESET </button>
+                <button onClick={this.Increment}> + </button>
+                <button onClick={this.Decrement}> - </button>
+                <button onClick={this.Reset}> RESET </button>
                 <br />
                 <h1> {this.state.count} </h1>
             </div>
