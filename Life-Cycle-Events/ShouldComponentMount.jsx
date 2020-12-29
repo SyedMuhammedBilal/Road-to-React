@@ -44,7 +44,7 @@ export default class OnlyEvens extends React.Component {
             </div>
         )
     }
-}
+};
 
 class Controller extends React.Component {
     constructor(props) {
