@@ -2,3 +2,5 @@ The if/else statements worked in the last challenge, but there's a more concise 
 
 <h1>{condition && <p>markup</p>}</h1> 
 
+<p>If the condition is true, the markup will be returned. If the condition is false, the operation will immediately return false after evaluating the condition and return nothing. You can include these statements directly in your JSX and string multiple conditions together by writing && after each one. This allows you to handle more complex conditional logic in your render() method without repeating a lot of code.</p>
+
