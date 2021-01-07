@@ -37,5 +37,3 @@ class ShowName extends Component {
         );
     }
 }
-
-export default Props_Passing;
